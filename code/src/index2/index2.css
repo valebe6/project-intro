@@ -11,3 +11,6 @@ button {
 button:hover{
     background:rgb(0, 0, 255)
 }
+.pcen{
+    text-align: center;
+}
