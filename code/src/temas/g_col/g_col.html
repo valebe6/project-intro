@@ -5,79 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aprendamos Sociales</title>
-    <link rel="icon" href="/code/img/icon.png" />
+    <link rel="icon" href="/sociales/code/img/icon.png" />
+    <link rel="stylesheet" href="./g_col.css" />    
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./g_col.css" />
   </head>
   <body>
-    <div class="card">
-      <img
-        src="/code/img/img_info_g_col/fren_nal.jpg"
-        width="100 "
-        style="filter: opacity(0.6)"
-        class="card-img-top"
-        alt="g_col"
-      />
-      <div class="card-body">
-        <h5 class="card-title pcen">Frente Nacional</h5>
-        <p class="card-text">
-          El frente Nacional fue principalmente un movimiento político para
+    <div class="card imgg">
+      <div class="imgg">
+        <div class="card-body">
+          <h5 class="card-title pcen m-4" style="color: aliceblue;">APRENDAMOS</h5>
+          <br>
+
+      <div class="row text-center col-12" id="card-center" >
+
+        <div class="card col-3" id="col">
+          <img
+            src="/sociales/code/img/img_info_g_col/fren_nal.jpg"
+            class="card-img-top me-2 mt-2"
+            alt="g_col"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Frente Nacional</h5>
+            <p class="card-text">
+              El frente Nacional fue principalmente un movimiento político para
           realizar un pacto bipartidista (liberales y conservadores).
-        </p>
-        <button onclick="location.href=('../temas/g_col/g_col.html')">
-          Lee más...
-        </button>
-      </div>
-    </div>
-
-    <div class="card">
-        <img
-          src="/code/img/img_info_g_col/conf_ar.jpg"
-          width="100 "
-          style="filter: opacity(0.6)"
-          class="card-img-top"
-          alt="g_col"
-        />
-        <div class="card-body">
-          <h5 class="card-title pcen">Conclicto armado</h5>
-          <p class="card-text">
-            El conflicto armado marca a Colombia por la violencia interna que ha sufrido en toda su historia.
-          </p>
-          <button onclick="location.href=('../temas/g_col/g_col.html')">
+            </p>
+          </div>
+          <button
+            class="but_inv m-2"
+            onclick="mensaje()"
+          >
+            Lee más...
+          </button>
+        </div>
+  
+        <div class="card col-3" id="col">
+          <img
+            src="/sociales/code/img/img_info_g_col/conf_ar.jpg"
+            class="card-img-top me-2 mt-2"
+            alt="g_mun"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Conclicto armado</h5>
+            <p class="card-text">El conflicto armado marca a Colombia por la violencia interna que ha sufrido en toda su historia.</p>
+          </div>
+          <button
+            class="but_inv m-2"
+            onclick="location.href=('./code/src/temas/g_mun/g_mun.html')"
+          >
+            Lee más...
+          </button>
+        </div>
+  
+        <div class="card col-3" id="col">
+          <img
+            src="/sociales/code/img/img_info_g_col/g_mil_d.jpg"
+            class="card-img-top me-2 mt-2"
+            alt="r_soc"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Guerra de los mil días</h5>
+            <p class="card-text">
+              Sin duda uno de los conflictos más devastadores en la historia de Colombia.
+            </p>
+          </div>
+          <button
+            class="but_inv m-2"
+            onclick="location.href=('./code/src/temas/r_soc/r_soc.html')"
+          >
             Lee más...
           </button>
         </div>
       </div>
-
-    <div class="card">
-        <img
-          src="/code/img/img_info_g_col/g_mil_d.jpg"
-          width="100 "
-          style="filter: opacity(0.6)"
-          class="card-img-top"
-          alt="g_col"
-        />
-        <div class="card-body">
-          <h5 class="card-title pcen">Guerra de los mil días</h5>
-          <p class="card-text">
-            Sin duda uno de los conflictos más devastadores en la historia de Colombia.
-          </p>
-          <button onclick="location.href=('../temas/g_col/g_col.html')">
-            Lee más...
-          </button>
-        </div>
-      </div>
-
+      <br />
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="g_col.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>

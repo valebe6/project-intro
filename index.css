@@ -1,16 +1,47 @@
 body{
-    background: rgba(163, 163, 255, 0.753); 
+    background: rgb(177, 177, 177); 
+    height: 100%;
 }
 
 button {
     border-radius: 8px;
     border-width: 1px;
+    border-color: aliceblue;
+    color: aliceblue;
     padding: 10px;
-    background: rgb(74, 92, 255);
+    background-color: transparent;
 }
 button:hover{
-    background:rgb(0, 0, 255)
+    background:rgb(255, 255, 255);
+    color: black;
 }
 .pcen{
     text-align: center;
+    font-family: fantasy;
+    font-size: 100px;
+    color: aliceblue;
 }
+.imgg {
+    background-image: url('./code/img/pbg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px
+}
+.ptex{
+    text-align: center;
+    font-family: monospace;
+    font-size: 40px;
+    color: aliceblue;
+    margin: 100px
+
+}
+#col{
+    background-color: rgb(255, 255, 255);
+}
+.but_inv{
+    background-color: black;
+}
+.card{
+    margin: auto;
+    height: 425px;}
