@@ -1,6 +1,7 @@
 body{
-    background: rgba(163, 163, 255, 0.753);
+    background: rgba(163, 163, 255, 0.753); 
 }
+
 button {
     border-radius: 8px;
     border-width: 1px;
@@ -9,4 +10,7 @@ button {
 }
 button:hover{
     background:rgb(0, 0, 255)
+}
+.pcen{
+    text-align: center;
 }
